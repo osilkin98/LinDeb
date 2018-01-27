@@ -20,6 +20,8 @@
 
  */
 
+// attempts to allocate a matrix C and store the result of the multiplcation
+// in dynamic memory and return a pointer to the address of the new matrix
 template<typename t>
 t** matrix_mult(t** A, t** B, const int m, const int n, const int q) {
   t** C = NULL;
